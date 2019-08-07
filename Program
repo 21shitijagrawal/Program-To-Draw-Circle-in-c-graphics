@@ -3,7 +3,7 @@
 #include<math.h>
 #include<graphics.h>
 void drawCircle(int x1, int y1,int r){
-     int angle=0,x,y,c=0,i=0;
+     int angle=0,x,y;
      int xc=x1/2,yc=y1/2;
      while(angle<360){
          x=cos(angle)*r;
